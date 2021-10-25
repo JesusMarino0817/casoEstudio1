@@ -1,0 +1,210 @@
+.navbar-logo{
+    font-family: 'Limelight', cursive;
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.head {
+    padding: 1em;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(76,121,255,1) 50%, rgba(2,240,142,1) 100%);
+}
+.head-son {
+    margin-left: 1rem;
+}
+.description {
+    background: #ffffff;
+    border-radius: 10px;
+}
+.subtittle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+.paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    margin: 1em;
+    color: #ffffff;
+}
+.images-main {
+    width: 100px;
+    margin: 1em;
+}
+.main {
+    margin-top: 2em;
+}
+
+.main-target-book {
+    background: #0f5132;
+    border-radius: 8px;
+}
+.main-target-delivery {
+    background: #842029;
+    border-radius: 8px;
+}
+.main-target-payment {
+    background: #ffcd39;
+    border-radius: 8px;
+}
+.register-section {
+    background: #ffffff;
+    border-radius: 10px;
+}
+.tittle-register {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+.paragraph-register {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.button-register {
+    margin: 1rem;
+}
+.text-register {
+    color: #ffffff;
+    font-family: 'Limelight', cursive;
+    font-size: 60px;
+}
+.fig {
+    width: 15px;
+    height: 60px;
+    -webkit-transform: rotate(230deg);
+    margin-right: 2em;
+    background: rgb(0,212,255);
+    background: linear-gradient(230deg, rgba(0,212,255,1) 0%, rgba(76,121,255,1) 50%, rgba(2,240,142,1) 100%);
+}
+.content-text-register {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 4em;
+    padding-right: 1rem;
+}
+.editorials {
+    width: 150px;
+}
+.search-body {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.search-content {
+    background: #ffffff;
+    border-radius: 10px;
+}
+.search-images {
+    width: 180px;
+}
+.search-tittle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+.search-paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.book-section {
+    background: #ffffff;
+    border-radius: 10px;
+}
+.book-tittle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.book-img {
+    width: 250px !important;
+}
+.book-recommend {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #842029;
+}
+.book-tittle-recommend {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 26px;
+}.book-tittle-recommend-2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+ }
+.book-tittle-recommend-3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+}
+.book-description {
+    -webkit-line-clamp: 5;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+}
+.login {
+    background: #ffffff;
+    border-radius: 10px;
+}
+.login-tittle {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+.login-paragraph {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.payment {
+    background: #ffffff;
+    border-radius: 10px;
+}
+.payment-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.payment-anotation {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 1em;
+}
+.book-view {
+    background: #ffffff;
+    border-radius: 10px;
+}
+.book-view-text {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.top {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+}
+.div-book {
+    background: #ffffff;
+    border-radius: 10px;
+}
+hr {
+    background: #ffffff;
+}
+#welcome span {
+    color: #d63384;
+    font-weight: bold;
+}
