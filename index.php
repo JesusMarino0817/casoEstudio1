@@ -24,7 +24,7 @@ $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";
 <body style="background: #1a1e21;">
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-logo" href="index.php">Bookzon</a>
+            <a class="navbar-logo" href="index.php">Libreria de libros</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -66,8 +66,8 @@ $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";
             $slides = mysqli_num_rows($stmt);
         ?>
             <div class="description col-xl-5">
-                <img src="images/logo.jpg" class="mx-auto d-block" alt="Logo Bookzon">
-                <p class="subtittle" style="text-align: center" id="welcome">¡Hola <span><?php $USER ?></span>!, te damos la bienvenida.</p>
+                <img src="images/logo.png" class="mx-auto d-block" alt="Logo Bookzon">
+                <p class="subtittle" style="text-align: center" id="welcome">¡Hola, bienvenido<span><?php $USER ?></span>!</p>
             </div>
             <div id="carouselExampleCaptions" class="carousel slide col-xl-7" style="margin-left: auto;" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
@@ -109,12 +109,12 @@ $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";
 
     <div class="container-fluid">
         <div>
-        <h1 class="p-4 top">Top 3 de ventas.</h1>
+        <h1 class="p-4 top">Recomendados para ti</h1>
         <table class="table table-danger table-striped">
         <thead>
             <tr>
                 <th scope="col">Libro</th>
-                <th scope="col">Cantidades vendidas</th>
+                <th scope="col">ventas</th>
             </tr>
         </thead>
             <?php

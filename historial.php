@@ -19,7 +19,7 @@
     ?>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-logo" href="index.php">Bookzon</a>
+            <a class="navbar-logo" href="index.php">Libreria de libros</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -54,7 +54,7 @@
         </div>
     </nav>
     <section class="container-fluid py-3">
-    <h1 class="login-tittle">Historial de compras</h1>
+    <h1 class="login-tittle">Historial de tus compras</h1>
     <table class="table table-danger table-striped">
         <thead>
             <tr>

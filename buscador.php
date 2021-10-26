@@ -17,7 +17,7 @@ $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";
 <body style="background: #000000">
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-logo" href="index.php">Bookzon</a>
+            <a class="navbar-logo" href="index.php">Libreria de libros</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -63,7 +63,7 @@ $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";
         $res = $conn->query($query);
     ?>   
     <section class="container-fluid my-3">
-        <p class='search-body mx-3'>Resultado de busqueda sobre: <b> <?php echo $_POST['search'] ?></b></p>
+        <p class='search-body mx-3'>Resultado de busqueda de: <b> <?php echo $_POST['search'] ?></b></p>
         <?php
             if(mysqli_num_rows($res) > 0) {
                 $cont = 0;
@@ -75,7 +75,7 @@ $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";
                     $isbn = $row['isbn'];
                     echo "<div class='d-flex align-self-start'>
                             <div>
-                                <img src='images/".$row['image']."' class='search-images mx-2 my-3'>
+                                <img src='images/".$row['imagen']."' class='search-images mx-2 my-3'>
                             </div>
                             <div class='mx-2'>
                                 <h1 class='search-tittle py-3'>".$row['tittle']."</h1>
@@ -91,21 +91,19 @@ $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";
                     </div>
                     <div class="p-3 col-xl-4">
                         <div id="fb-root"></div>
-                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0" nonce="blmHCvYU"></script>
-                        <p class="search-body">Siguenos en nuestras redes sociales para enterarte de las novedades en la tienda.</p>
-                        <p class="search-body">Siguenos en Twitter</p>
-                        <a href="https://twitter.com/bookzon?ref_src=twsrc%5Etfw"
-                        class="twitter-follow-button mx-3" data-show-count="false">
-                            Follow @bookzon</a>
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        <p class="search-body my-2">Dale Like a nuestra pagina de facebook.</p>
+                        <script async defer crossorigin="anonymous" src=https://connect.facebook.net/en_US/sdk.js" nonce="blmHCvYU"></script>
+                        <p class="search-body">Siguenos en nuestras redes sociales con el creador de la página.</p>
+                        <p class="search-body my-2">Sigue a nuestro creador.</p>
+                        <svg viewBox="0 0 36 36" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4" fill="url(#jsc_c_3)" height="40" width="40"><defs><linearGradient x1="50%" x2="50%" y1="97.0782153%" y2="0%" id="jsc_c_3"><stop offset="0%" stop-color="#0062E0"></stop><stop offset="100%" stop-color="#19AFFF"></stop></linearGradient></defs><path d="M15 35.8C6.5 34.3 0 26.9 0 18 0 8.1 8.1 0 18 0s18 8.1 18 18c0 8.9-6.5 16.3-15 17.8l-1-.8h-4l-1 .8z"></path><path class="p361ku9c" d="M25 23l.8-5H21v-3.5c0-1.4.5-2.5 2.7-2.5H26V7.4c-1.3-.2-2.7-.4-4-.4-4.1 0-7 2.5-7 7v4h-4.5v5H15v12.7c1 .2 2 .3 3 .3s2-.1 3-.3V23h4z"></path></svg>
+                        <linearGradient x1="50%" x2="50%" y1="97.0782153%" y2="0%" id="jsc_c_3"><stop offset="0%" stop-color="#0062E0"></stop><stop offset="100%" stop-color="#19AFFF"></stop></linearGradient>
+                        <path class="p361ku9c" d="M25 23l.8-5H21v-3.5c0-1.4.5-2.5 2.7-2.5H26V7.4c-1.3-.2-2.7-.4-4-.4-4.1 0-7 2.5-7 7v4h-4.5v5H15v12.7c1 .2 2 .3 3 .3s2-.1 3-.3V23h4z"></path>
                         <div class="fb-page m-3"
-                            data-href="https://www.facebook.com/thebookzon"
+                            data-href="https://www.facebook.com/jesusmanuel.marinomendez"
                             data-tabs="timeline" data-width="" data-height=""
                             data-small-header="false" data-adapt-container-width="true"
                             data-hide-cover="false" data-show-facepile="true">
-                            <blockquote cite="https://www.facebook.com/thebookzon" class="fb-xfbml-parse-ignore">
-                                <a href="https://www.facebook.com/thebookzon">Bookzon</a></blockquote>
+                            <blockquote cite="https://www.facebook.com/jesusmanuel.marinomendez" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/jesusmanuel.marinomendez">Jesus Marino</a></blockquote>
                         </div>
                     </div>
                     </div>

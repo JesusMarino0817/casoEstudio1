@@ -6,8 +6,8 @@
 }
 .head {
     padding: 1em;
-    background: rgb(0,212,255);
-    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(76,121,255,1) 50%, rgba(2,240,142,1) 100%);
+    background: rgb(76, 0, 255);
+    background: linear-gradient(90deg, rgb(0, 47, 255) 0%, rgba(76,121,255,1) 50%,rgb(22, 77, 243) 50%);
 }
 .head-son {
     margin-left: 1rem;
@@ -83,8 +83,8 @@ label {
     height: 60px;
     -webkit-transform: rotate(230deg);
     margin-right: 2em;
-    background: rgb(0,212,255);
-    background: linear-gradient(230deg, rgba(0,212,255,1) 0%, rgba(76,121,255,1) 50%, rgba(2,240,142,1) 100%);
+    background: rgb(89, 0, 255);
+    background: linear-gradient(230deg, rgba(0,212,255,1) 0%, rgba(76,121,255,1) 50%, rgb(2, 18, 240) 100%);
 }
 .content-text-register {
     color: #ffffff;

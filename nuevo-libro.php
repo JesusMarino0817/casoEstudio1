@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nuevo libro</title>
     <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,7 +15,7 @@
 <?php $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";?>
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-logo" href="index.php">Bookzon</a>
+            <a class="navbar-logo" href="index.php">Libreria de libros</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,7 +51,7 @@
     </nav>
 <section class="container-fluid mt-5 justify-content-center" style="padding: 1em;"">
     <div class="register-section">
-        <h1 class="tittle-register px-1">Registro de Libro.</h1>
+        <h1 class="tittle-register px-1">Registrar Libro.</h1>
         <form style="padding: 1rem;" action="recibe-libro.php" method="post" enctype="multipart/form-data"/>
             <div class="mb-3 container-fluid">
                 <label for="tittle" class="form-label">Titulo: </label>
@@ -86,8 +86,8 @@
                 <input type="text" name="price" id="price" class="form-control">
             </div>
             <div class="mb-3 container-fluid">
-                <label for="image">Imagen: </label>
-                <input type="file" name="image" id="image" class="form-control">
+                <label for="imagen">Imagen: </label>
+                <input type="file" name="imagen" id="imagen" class="form-control">
             </div>
             <button type="submit" class="btn btn-primary button-register">Agregar</button>
         </form>

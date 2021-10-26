@@ -19,7 +19,7 @@
     ?>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-logo" href="index.php">Bookzon</a>
+            <a class="navbar-logo" href="index.php">Libreria de libros</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -66,7 +66,7 @@
                 while($row = mysqli_fetch_assoc($res)) {
                 ?>
                 <div class="col-xl-3">
-                    <?php echo "<img src='images/".$row['image']."' class='p-3 w-100'>";?>
+                    <?php echo "<img src='images/".$row['imagen']."' class='p-3 w-100'>";?>
                 </div>
                 <div class="col-xl-4 p-3">
                 <?php

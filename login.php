@@ -14,7 +14,7 @@
 <body style="background: #000000;">
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-logo" href="index.php">Bookzon</a>
+            <a class="navbar-logo" href="index.php">Libreria de libros</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -50,8 +50,8 @@
     </nav>
     <hr class="my-4">
     <section class="container-fluid">
-    <h1 class="login-tittle text-center p-2">Inicie sesión y adquiera los mejores libros para usted.</h1>
-    <p class="login-paragraph text-center">Controle las compras que ha hecho, sus detalles, y siga adquiriedo libros.</p>
+    <h1 class="login-tittle text-center p-2">Inicia sesión y adquiere lo que buscas.</h1>
+    <p class="login-paragraph text-center">Administra y visualiza tus compra como nuncas.</p>
         <div class="row justify-content-center align-items-center py-4">
             <div class="col-auto login p-5">
                 <form action="ingresa-user.php" method="post">
@@ -61,7 +61,7 @@
                     </div>
                     <div class="px-5 py-2">
                         <label for="pass">Contraseña:</label>
-                        <input name="pass" id="pass" type="password" class="form-control w-100">
+                        <input name="pass" id="pass" type="text" class="form-control w-100">
                     </div>
                     <button type="submit" class="btn btn-primary float-end px-3 w-100">Ingresar</button>
                 </form>

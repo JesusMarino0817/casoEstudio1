@@ -18,7 +18,7 @@ $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";
 <body style="background: #000000;">
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-logo" href="index.php">Bookzon</a>
+            <a class="navbar-logo" href="index.php">Libreria de libros</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -64,7 +64,7 @@ $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";
             <div class="book-section my-3 my-sm-3 my-md-3 my-lg-3 my-xl-3 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
                 <div class="d-flex align-self-start row">
                     <div class="col-12 col-sm-12 col-md-4 py-1">
-                        <?php echo "<img src='images/".$row['image']."' class='w-100 p-2 book-img d-block mx-auto d-md-inline'>"; ?>
+                        <?php echo "<img src='images/".$row['imagen']."' class='w-100 p-2 book-img d-block mx-auto d-md-inline'>"; ?>
                     </div>
                     <div class="p-3 col-md-8">
                     <?php 
@@ -116,7 +116,7 @@ $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";
                         <div class="book-recommend">
                             <div class="d-flex row p-2">
                                 <div class="col-4">
-                                    <?php echo "<img src='images/".$row['image']."' class='w-100'>";?>
+                                    <?php echo "<img src='images/".$row['imagen']."' class='w-100'>";?>
                                 </div>
                                 <div class="col-8">
                                 <?php 

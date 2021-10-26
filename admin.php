@@ -14,7 +14,7 @@
 <body style="background: #000000;">
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-logo" href="index.php">Bookzon</a>
+            <a class="navbar-logo" href="index.php">Libreria de libros</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,8 +51,8 @@
     <section class="container-fluid px-4">
     <div class="container-fluid py-4">
         <a href="nuevo-libro.php" class="btn btn-primary">Nuevo Libro</a>
-        <a href="ventas.php" class="btn btn-outline-danger">Ver Ventas</a>
-        <p class="book-tittle-recommend" style="font-size: 45px !important;">Todos los libros disponibles.</p>
+        <a href="ventas.php" class="btn btn-outline-danger">Ver las Ventas</a>
+        <p class="book-tittle-recommend" style="font-size: 45px !important;">Todos los libros disponibles que tenemos para ti.</p>
     </div>
     <div class="row div-book p-3">
     <?php
@@ -63,7 +63,7 @@
         while($row = mysqli_fetch_assoc($res)) {
             echo "
             <div class='col-2 p-2'>
-                <img src='images/".$row['image']."' class='w-100'>
+                <img src='images/".$row['imagen']."' class='w-100'>
             </div>
             <div class='col-10'>
                 <h1>ISBN: ".$row['isbn']." - ".$row['tittle']."</h1>
@@ -99,7 +99,7 @@
     (function() {
         let link = document.getElementById('delete');
         link.addEventListener('submit', function(event) {
-            if(!confirm('¿Esta seguro de eliminar este elemento?')) {
+            if(!confirm('¿Esta seguro de eliminar este libro?')) {
                 event.preventDefault();
             }
         },false);

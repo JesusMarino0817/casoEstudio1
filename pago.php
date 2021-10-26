@@ -21,7 +21,7 @@ $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";
     ?>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-logo" href="index.php">Bookzon</a>
+            <a class="navbar-logo" href="index.php">Libreria de libros</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -69,7 +69,7 @@ $type = isset($_SESSION['type']) && $_SESSION['type'] == 1 ? "1" : "2";
             <form action="recibe-pago.php" method="post">
                 <div class="row">
                     <div class="col-12 col-lg-6 col-xl-6">
-                        <p class="payment-desc">Libro: El ultimo Pasajero de Manel Loureiro</p>
+                        <p class="payment-desc">Libro: El ultimo Pasajero de Manuel Loureiro</p>
                         <p class="payment-desc">Precio: $100.00</p>
                         <label for="amount">Cantidad de libros: </label>
                         <input type="number" name="amount" id="num1" class="form-control" onkeypress="return event.charCode >= 48" min="1">

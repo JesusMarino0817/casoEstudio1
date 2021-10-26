@@ -14,7 +14,7 @@
 <body style="background: #000000;">
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-logo" href="index.php">Bookzon</a>
+            <a class="navbar-logo" href="index.php">Libreria de libros</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,7 +51,7 @@
     <section class="container-fluid mt-5 d-xl-flex d-lg-flex" style="padding: 1em;">
         <div class="register-section col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
             <h1 class="tittle-register px-1">Registro de nuevo usuario.</h1>
-            <p class="paragraph-register px-1">Cree su nueva cuenta para poder realizar compras en la pagina, administrar sus compras, y controlar el
+            <p class="paragraph-register px-1">Crea tu nueva cuenta para poder realizar compras en la pagina, administrar, y controlar el
                 proceso de estas.</p>
             <form style="padding: 1rem;" action="recibe-user.php" method="post">
                 <div class="mb-3 container-fluid">
@@ -71,28 +71,28 @@
                     <input type="text" name="email" class="form-control">
                 </div>
                 <div class="mb-3 container-fluid">
-                    <label for="password">Contraseña</label>
-                    <input type="password" name="password" class="form-control">
+                    <label for="pass">Contraseña</label>
+                    <input type="pass" name="pass" class="form-control">
                 </div>
                 <button type="submit" class="btn btn-primary button-register">Registrarse</button>
             </form>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-            <p class="text-register text-xl-center text-lg-center text-md-center text-sm-center text-center">Bookzon</p>
+            <p class="text-register text-xl-center text-lg-center text-md-center text-sm-center text-center">Libreria de libros</p>
             <div class="fig" style="margin-left: 3em;"></div>
-            <p class="content-text-register">En Bookzon, usted podra conseguir los mejores libros de la actualidad en los mejores precios, consiga
+            <p class="content-text-register">En esta tu Libreria de libros, usted podra conseguir los mejores libros de la actualidad en los mejores precios, consiga
             libros de las principales editoriales del mundo y de todo tipo, consulte en todo momento como va su entrega
             y goce de sus libros favoritos.
             </p>
             <div class="row">
                 <div class="col-4 d-flex justify-content-center">
-                    <img src="images/Arco.jpg" class="p-2 editorials w-75" style="margin-left: 5em;">
+                    <img src="images/mc.png" class="p-2 editorials w-75" style="margin-left: 5em;">
                 </div>
                 <div class="col-4 d-flex justify-content-center">
-                    <img src="images/juventud.png" class="p-2 editorials w-75 col-6" style="height: 60px; margin-top: 3em;">
+                    <img src="images/edel.png" class="p-2 editorials w-75 col-6" style="height: 60px; margin-top: 3em;">
                 </div>
                 <div class="col-4 d-flex justify-content-center">
-                    <img src="images/Nirvana.png" class="p-2 editorials w-75 col-6" style="height: 110px; margin-top: 1em;">
+                    <img src="images/trillas.png" class="p-2 editorials w-75 col-6" style="height: 110px; margin-top: 1em;">
                 </div>
             </div>
             <div class="fig float-xl-end float-lg-end float-md-end float-sm-end float-end"></div>

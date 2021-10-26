@@ -10,11 +10,11 @@ $amount = $_POST['amount'];
 $price = $_POST['price'];
 $isbn = $_POST['isbn'];
 
-$file = $_FILES['image']['name'];
+$file = $_FILES['imagen']['name'];
 if(isset($file) && $file != "") {
-    $type = $_FILES['image']['type'];
-    $size = $_FILES['image']['size'];
-    $temp = $_FILES['image']['tmp_name'];
+    $type = $_FILES['imagen']['type'];
+    $size = $_FILES['imagen']['size'];
+    $temp = $_FILES['imagen']['tmp_name'];
     if(!((strpos($type, "jpeg") || strpos($type, "jpg") || strpos($type, "png") ))) {
         echo  "<div><b>extensión no soportada</b></div>";
     } else {
@@ -23,7 +23,7 @@ if(isset($file) && $file != "") {
         }
     }
 }
-$sql = "INSERT INTO book(isbn, tittle, genre, autor, amount, editorial, image, log_eliminacion, description, price) 
+$sql = "INSERT INTO book(isbn, tittle, genre, autor, amount, editorial, imagen, log_eliminacion, description, price) 
 VALUES ('$isbn','$tittle', '$genre', '$autor', '$amount', '$editorial', '$file', 'no', '$description', '$price')";
 if(mysqli_query($conn, $sql)) {
     echo'<script type="text/javascript">
@@ -33,7 +33,7 @@ if(mysqli_query($conn, $sql)) {
     } else {
     echo'
         <script type="text/javascript">
-        alert("Error al agregar el libro, compruebe que el isbn no este repetido.");
-        window.location.href="index.php";
+        alert("Error al agregar el libro.");
+        window.location.href="nuevo-libro.php";
         </script>';
     }

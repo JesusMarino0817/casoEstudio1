@@ -3,7 +3,7 @@
     $pass = $_POST['pass'];
 
     include("conexion.php");
-    $sql = "SELECT * FROM user where email ='$email' and password = '$pass' ";
+    $sql = "SELECT * FROM user where email ='$email' and pass = '$pass' ";
         $result = $conn->query($sql);
 
         if($result->num_rows > 0){
